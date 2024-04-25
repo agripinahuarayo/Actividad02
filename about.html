@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iDesign - About</title>
+    <!-- myProject references -->
+    <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="dist/animate.css">
+    <link rel="stylesheet" href="dist/morphext.css">
+    <script src="//https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jqPuzzle/jquery.js"></script>
+    <script type="text/javascript" src="jqPuzzle/jquery.jqpuzzle.js"></script>
+    <link rel="stylesheet" type="text/css" href="jqPuzzle/jquery.jqpuzzle.css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('img').jqPuzzle(); // apply to all images
+        });
+    </script>
+</head>
+
+<body>
+
+    <div id="page">
+        <header>
+            <a class="logo" title="That Net" href="default.html" target="_blank"><span></span></a>
+            <div class="hero">
+                <h1>Agrega <span id="js-rotating">Diversion, arte, estilo, vida</span> con codificacion y diseño</h1>
+                <a class="btn" title="Let's start creating websites" href="canvas.html">Empecemos<span> creando sitios
+                        web </span></a>
+                <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"><\/script>')</script>
+                <script src="dist/morphext.js"></script>
+                <script>
+                    $("#js-rotating").Morphext({
+                        //se ha hecho traduccion y se ha modificado las lecturas 
+                        //se ha cambiado imagen de foto
+                        // The [in] animation type. Refer to Animate.css for a list of available animations.
+                        animation: "bounceIn",
+                        // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+                        separator: ",",
+                        // The delay between the changing of each phrase in milliseconds.
+                        speed: 2000,
+                        complete: function () {
+                            // Called after the entrance animation is executed.
+                        }
+                    });
+                </script>
+            </div>
+        </header>
+
+        <section class="main">
+
+
+
+        </section>
+
+
+        <section class="aboutme">
+
+
+
+            <article style="background: url(images/home.png) no-repeat 0 5px; clear: both;"></article>>
+
+
+            <p>
+                <strong style="font-size:large; font-weight:bold">Agripina Huarayo J</strong><br />
+                Desarrolladora / Diseñadora Web<br />
+            </p>
+            <p style="text-align:justify">
+                Soy madre, esposa, hija y hermana y actualmente vivo en Santa Cruz, Bolivia. Me encantan las
+                computadoras, tanto hardware como software, e incluso sueño en HTML5. soy estudiante de la Universidad
+                Privada Domingo Savio y me encantaria dominar CSS3, PHP, JavaScript, Java, C#, .Net, MySQL, SQL, Adobe
+                Illustrator, Adobe Photoshop,
+                Adobe Bridge, SQL Server Management Studio, SQL Data Tools y aplicaciones de diseño web como
+                Dreamweaver, Netbeans, XAMPP, Visual. Estudio 2013 y Eclipse.
+            </p>
+            <p>
+                Actualmente soy estudiante de Ing. Sistemas en la Universidad Privada Domingo Savio
+            </p>
+
+
+            <a class="btn" title="Beam me up, Scotty!" href="default.html">Home</a>
+
+            </article>
+
+        </section>
+
+        <section class="how-to">
+            <aside>
+                <div class="content">
+                    <img alt="Planning your website design" src="images/photo_planning.jpg">
+                    <h4>Cómo hacerlo: planificación</h4>
+                    <p>Planificar su sitio web con anticipación le dará una dirección clara y evitará incumplimientos de
+                        plazos y retrocesos.</p>
+                    <a title="What website design do you need." href="#">Aprende más</a>
+                </div>
+            </aside>
+            <aside>
+                <div class="content">
+                    <img alt="Choosing the right design" src="images/photo_mouse.jpg">
+
+                    <h4>Cómo: Diseño</h4>
+                    <p>Una de las cosas más importantes que hay que recordar durante el proceso de desarrollo de un
+                        sitio web es crear un diseño limpio y atractivo.</p>
+                    <a title="Allow us to help you choose the right design." href="#">Aprende más</a>
+                </div>
+            </aside>
+            <blockquote>
+                <p class="quote">Diseño sitios web que mis clientes pueden administrar y actualizar por sí mismos sin
+                    ningún conocimiento de HTML.</p>
+                <p class="credit"><strong>A Huarayo Jancko</strong><br><em>Diseñadora web</em><br>5nDesign</p>
+            </blockquote>
+
+        </section>
+
+        <nav>
+            <ul>
+                <li>
+                    <a title="Home" href="default.html" aria-haspopup="true">Home</a>
+                </li>
+                <li>
+                    <a title="About Me" href="#" aria-haspopup="true">Acerca de mí</a>
+
+                </li>
+
+                <li>
+                    <a title="Portfolio" href="portfolio.html" aria-haspopup="true">Portfafoliio</a>
+
+                </li>
+                <li>
+                    <a title="Canvas" href="canvas.html">Lienzo</a>
+                </li>
+                <li>
+                    <a title="Contact Me" href="contact.html">contactame</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+        <footer>
+
+            &copy; Agripina Huarayo J. 2024
+            <div class="content">
+                <a title="Privacy Policy" href="#">politica y privacidad</a>
+                <a title="Terms of Service" href="#">Terminos del servicio</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

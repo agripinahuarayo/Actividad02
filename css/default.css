@@ -1,0 +1,18 @@
+﻿canvas {
+border: 1px solid rgb(40, 38, 122);
+}
+
+/*Section About Me*/
+
+section.canvas {
+	background-color: #3342cc; 
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+section.canvas article {
+	/*padding: 0 20px 0 515px;*/
+	min-height: 220px;	
+}
+

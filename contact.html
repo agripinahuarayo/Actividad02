@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iDesign - Contacto</title>
+    <!-- myProject references -->
+    <link href="css/formvalidate.css" rel="stylesheet" type="text/css">
+    <link href="css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="dist/animate.css">
+    <link rel="stylesheet" href="dist/morphext.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="Scripts/jquery.validate.js"></script>
+</head>
+<body>
+    <!-- se ha hecho referencia al link de boostrap para que funcione nuestra pagina  -->
+        <!--se ha traducido y modificado casi todo el texto -->
+    <div id="page">
+        <header>
+            
+
+            <a class="logo" title="That Net" href="default.html" target="_blank"><span>Ese diseño de red</span></a>
+            <div class="hero">
+                <h1>Bienvido a nuestra <span id="js-rotating">pagina</span> de ayudantia de la materia Programacion Web 2</h1>
+                <a class="btn" title="Let's start creating websites" href="canvas.html">Estamos aqui para acompañarte en tu camino hacia el exito</a><span></span></a>
+                <script>window.jQuery || document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"><\/script>')</script>
+        <script src="dist/morphext.js"></script>
+        <script>
+         $("#js-rotating").Morphext({
+    // The [in] animation type. Refer to Animate.css for a list of available animations.
+    animation: "bounceIn",
+    // An array of phrases to rotate are created based on this separator. Change it if you wish to separate the phrases differently (e.g. So Simple | Very Doge | Much Wow | Such Cool).
+    separator: ",",
+    // The delay between the changing of each phrase in milliseconds.
+    speed: 2000,
+    complete: function () {
+        // Called after the entrance animation is executed.
+    }
+});
+        </script>
+            </div>
+        </header>
+
+        <section class="main"></section>
+
+        <section class="contact">
+            <article>
+                <p>
+                    <strong style="font-size:large; font-weight:bold">Proporcione su nombre, dirección de correo electrónico (no se publicará) y un comentario.
+
+                    </strong><br />
+                </p>
+               <!-- se ha  modificado el formulario a nuestras necesidades -->
+                 <!-- Se ha anadido boostrap al formulario-->
+
+                <form class="cmxform" id="commentForm" method="get" action="success.html">
+                    <fieldset>
+
+                        <div class="form-group">
+                            <p>
+                                <label for="cname">Nombre</label>
+                                <input style="width:350px;" type="text" class="form-control" id="cname" aria-describedby="namelHelp" placeholder="Nombre Completo"required>
+                                <small id="namelHelp" class="form-text text-muted"></small>
+                            </p>
+                            
+                        </div>
+
+                        <div class="form-group">
+                            <p>
+                                <label for="cemail">E mail</label>
+                                <input style="width:350px;" type="email" class="form-control" id="cemail" aria-describedby="namelHelp" placeholder="E-mail"required>
+                                <small id="namelHelp" class="form-text text-muted"></small>
+                            </p>
+                            
+                        </div>
+                      
+                        <div class="form-group">
+                            <p>
+                                <label for="cphone">Telf. :</label>
+                                <input style="width:350px;" type="string" class="form-control" id="cstring" aria-describedby="phonelHelp" placeholder="(Opcional)"required>
+                                <small id="namelHelp" class="form-text text-muted"></small>
+                            </p>
+                            
+                        </div>
+                       
+                        <div class="form-group">
+                            <p>
+                                <label for="ccomment">SuConsulta</label>
+                                <textarea  style="height:250px;width:350px;" type="text" class="form-control" id="ccomment" aria-describedby="namelHelp" placeholder="Describa su consulta"required></textarea>
+                                <small id="namelHelp" class="form-text text-muted"></small>
+                            </p>
+                            
+                        </div>
+                       
+                        <p>
+                            <!-- se ha anadido boostrap al boton -->
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </p>
+                    </fieldset>
+                    
+                </form>
+
+               
+
+            </article>
+
+        </section>
+
+        <section class="how-to">
+         <!-- se ha crreado tarjetas con bostrap y se ha anadido imagenes acorde a la nesecidad tambien se ha anadido un link del establecimiento para mas informacion-->
+            <aside>      
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/MISION.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">MISION</h4>
+                      <p class="card-text">Generar cambios en las personas para desarrollar emprendedores socialmente responsables capaces de responder a desafíos emergentes. </p>
+                      <a  href="https://www.upds.edu.bo" title="Allow us to help you choose the right design." href="#" class="btn btn-primary">Mas informacion</a>
+                    </div>
+                </div>
+            </aside>
+            <aside>
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/VISION.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">VISION</h4>
+                      <p class="card-text">Ser la red de educación universitaria referente a nivel nacional por su formación académica de excelencia basada en la investigación científica y su compromiso con la Internacionalización. </p>
+                      <a href="https://www.upds.edu.bo" title="Allow us to help you choose the right design." href="#" class="btn btn-primary">Mas informacion</a>
+                    </div>
+                </div>
+
+                           </aside>
+            <blockquote>
+                <p class="quote">En este espacio, estamos comprometidos en brindarte el apoyo y la informacion que necesitas para alcanzar tus metas academicas y personales.</p>
+                <p class="credit"><strong>A. Huarayo Jancko</strong><br><em>Diseñadora web</em><br>Design</p>
+            </blockquote>
+
+        </section>
+
+        <nav>
+            <ul>
+                <li>
+                    <a title="Home" href="default.html" aria-haspopup="true">Home</a>
+                </li>
+                <li>
+                    <a title="About Me" href="about.html" aria-haspopup="true">Acerca de mi</a>
+
+                </li>
+                <li>
+                    <a title="Portfolio" href="portfolio.html" aria-haspopup="true">Portafolio</a>
+                </li>
+                <li>
+                    <a title="Canvas" href="canvas.html">Lienzo</a>
+                </li>
+                <li>
+                    <a title="Contact Me" href="#">Contactame</a>
+                </li>
+                
+            </ul>
+
+        </nav>
+
+        <footer>
+
+            &copy; Agripina Huarayo J.
+            <div class="content">
+                <a title="Privacy Policy" href="#">politica y privacidad</a>
+                <a title="Terms of Service" href="#">Termino de servicio</a>
+            </div>
+        </footer>
+
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
